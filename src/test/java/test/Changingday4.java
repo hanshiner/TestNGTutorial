@@ -5,14 +5,22 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 //rahulonlinetutor@gmail.com
 
-public class day4 {
+public class Changingday4 {
+	
+	
+	
+	public static void main(String[] args) {
+		System.out.println();
+	}
 
     @Parameters({ "URL" })
     @Test
     public void WebloginHomeLoan(String uname)
     {
+    	
+    	System.out.println("noliyi burda");
         //selenium
-        System.out.println("webloginhomePersonalLoan");
+        System.out.println("webloginhomesdfsdfsPersonalLoanxsdsdsadsdsfsdfsfs");
         System.out.println(uname);
 
     }
